@@ -1,0 +1,76 @@
+body {
+  background-color: #e2e4e1;
+}
+
+input:focus {
+  outline: none;
+}
+
+.navbar.bg-dark {
+  background-color: #364147 !important;
+}
+
+.btn-dark {
+  background-color: #364147 !important;
+}
+
+.navbar-brand > img {
+  width: 20%;
+  margin-right: 5px;
+}
+
+form > .search-box {
+  height: 90px;
+  border: 0;
+}
+
+nav form {
+  background-color: #212529 !important;
+}
+
+ul li.list-vehicle:hover {
+  background-color: #f1f2f0 !important;
+  cursor: pointer;
+}
+
+ul li.list-vehicle:hover .fa-tag {
+  color: #189c6c;
+}
+
+.vehicle-list-item {
+  display: grid;
+}
+
+.text-green {
+  color: #189c6c !important;
+}
+
+.modal-header,
+.modal-footer {
+  border: 0 !important;
+}
+
+.modal-content {
+  background-color: #e2e4e1;
+}
+
+.modal-body .form-select,
+.modal-body .form-control {
+  background-color: #e2e4e1;
+  border-bottom: 1px solid #212529;
+  border-radius: 0;
+}
+
+.modal .btn-dark {
+  min-width: 150px !important;
+  min-height: 70px !important;
+  background-color: #364147;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+.mt-34 {
+  margin-top: 150px;
+}

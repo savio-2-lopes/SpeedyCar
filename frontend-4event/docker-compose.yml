@@ -1,0 +1,11 @@
+version: '3'
+services:
+  php:
+    container_name: System-Project-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8010:8010
+    volumes:
+      - ./app:/var/www/html
