@@ -4,7 +4,7 @@ namespace Service;
 
 class VehicleService
 {
-    private static $url = "http://localhost:8000/veiculos";
+    private static $url = "http://172.20.0.1:8000/veiculos";
 
     function getVehicle()
     {

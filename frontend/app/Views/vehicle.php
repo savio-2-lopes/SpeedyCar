@@ -160,7 +160,7 @@
             </div>
 
             <div class="modal-footer mt-4">
-                <button type="button" class="btn btn-dark rounded-0 border-0 btn-lg btn-add" onclick="saveData()">ADD</button>
+                <button type="button" class="btn btn-dark rounded-0 border-0 btn-lg btn-add" onclick="saveData()">ADICIONAR</button>
                 <button type="button" class="btn btn-dark rounded-0 border-0 btn-lg" data-bs-dismiss="modal">FECHAR</button>
             </div>
         </div>

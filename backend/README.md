@@ -1,4 +1,4 @@
-# SpeedyCard - Sistema simples de Registro de Carros - Backend
+# SpeedyCar - Sistema simples de Registro de Carros - Backend
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/savio-2-lopes/SpeedyCar)
 ![GitHub language count](https://img.shields.io/github/languages/count/savio-2-lopes/SpeedyCar)

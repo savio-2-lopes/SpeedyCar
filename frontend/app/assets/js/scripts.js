@@ -79,7 +79,7 @@ function getDetailsData(id) {
 
 function editView(id) {
   $(".modal-title").html("Editar Veículo");
-  $(".btn-add").html("UPDATE");
+  $(".btn-add").html("ATUALIZAR");
   $("#brandVehicle").val($("#detail_marca").html());
   $("#modelVehicle").val($("#detail_veiculo").html());
   $("#yearVehicle").val($("#detail_ano").html());
@@ -92,7 +92,7 @@ function editView(id) {
 
 function registerView() {
   $(".modal-title").html("Novo Veículo");
-  $(".btn-add").html("ADD");
+  $(".btn-add").html("ADICIONAR");
 
   $("#modelVehicle").val("");
   $("#brandVehicle").val("");
