@@ -81,14 +81,14 @@ Adiciona um novo veículo
 ## Instalação Backend
 
 ```bash
-# Backend presente na pasta backend-4event
-$ cd backend-4event
+# Backend presente na pasta backend
+$ cd backend
 
 # Rodando o servidor com docker
 $ docker compose up --build
 
 # Necessário criar o banco de dados System-Project.
-# Para isso, na pasta teste-fullstack-php/backend-4event/app/create-table.sql há o script sql create-table.sql.
+# Para isso, na pasta teste-fullstack-php/backend/app/create-table.sql há o script sql create-table.sql.
 # Para acessar o banco de dados do Docker, as credenciais são as seguintes:
 $ user: root;
 $ password: root;
@@ -102,8 +102,8 @@ $ http:<SEU_IP>:8000
 ## Instalação Frontend
 
 ```bash
-# Frontend presente na pasta frontend-4event
-$ cd frontend-4event
+# Frontend presente na pasta backend
+$ cd backend
 
 # Rodando o servidor com docker
 $ docker compose up --build
